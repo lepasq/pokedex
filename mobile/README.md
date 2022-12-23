@@ -1,0 +1,5 @@
+- react native
+- camera module: https://mrousavy.com/react-native-vision-camera/docs/guides/
+- send camera image every second
+- pokedex: https://gist.github.com/the-akira/4f2244540d61f8a9d3ec73b280af5f9b
+- images: https://github.com/the-akira/Flask-Pokedex/
