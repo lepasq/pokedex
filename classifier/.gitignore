@@ -1,3 +1,4 @@
-/venv
+/classify-venv
+/model-venv
 /__pycache__
 /PokemonData
