@@ -1,12 +1,17 @@
-# Api
-Framework: FastApi
+# Running Locally
+Install the dependencies:
+```sh
+virtualenv api-venv
+source api-venv/bin/activate
+pip3 install -r api-requirements.txt
+```
 
-- use exported ML model from ../classifer
+Running uvicorn:
+```sh
+uvicorn api:app --reload
+```
 
-# Endpoints
-/GET with pokemon image as body
-1. result_option: couldn't classify pokemon
-2. result_option: pokemon_id, TTS
-
-
-descriptions: take from https://github.com/the-akira/Flask-Pokedex/
+Sending a request:
+```sh
+curl 127.0.0.1:8000/classify -F pokemon_img=@classifier/testimages/1.png
+```
